@@ -1,111 +1,5 @@
 @charset "UTF-8";
-
-/*-----------------------------------------------------------------------------------
-    Template Name: viho Admin
-    Template URI: themes.pixelstrap.com/viho
-    Description: This is Admin theme
-    Author: Pixelstrap
-    Author URI: https://themeforest.net/user/pixelstrap
------------------------------------------------------------------------------------
-
-01. General CSS
-02. Generic CSS
-03. Card CSS
-04. Loader CSS
-05. Header CSS
-06. Button CSS
-07. Color CSS
-08. GRID CSS
-09. Error-page  CSS
-10. Icon css
-11. Form Builder 1 CSS
-12. Form Builder 2 CSS
-13. Email Application  CSS
-14. Chat CSS
-15. Alert CSS
-16. Popover CSS
-17. List CSS
-18. Switch  CSS
-19. Mega option CSS
-20. Touchspin  CSS
-21. Select 2 CSS
-22. User profile css
-23. Progress CSS
-24. According CSS
-25. Authentication CSS
-26. Form CSS
-27. Coming Soon CSS
-28. Radio CSS
-29. Form Input CSS
-30. Data-table CSS
-31. JS datagrid CSS
-32. Page CSS
-33. Ecommerce  CSS
-34. Pricing CSS
-35. Form builder css
-36. NAV CSS
-37. Dropdown CSS
-38. Landing CSS
-39. Table  CSS
-40. Alertbox-call-out CSS
-41. Chart CSS
-42. Timeline CSS
-43. Timeline 2 CSS
-44. Tabs CSS
-45. Gallery CSS
-46. Blog CSS
-47. Footer CSS
-48. Form Wizard
-49. Badge CSS
-50. Tree CSS
-51. Search CSS
-52. Datepicker CSS
-53. Dashboard CSS
-54. Tour  CSS
-55. theme layout CSS
-56. Ribbon CSS
-57. breadcrumb CSS
-58. Steps  CSS
-59. Customizer CSS
-60. RTL CSS
-61. base_inputs CSS
-62. Responsive css
-63. Box-layout css
-64. Button Builder css
-65. Button Builder color picker CSS
-66. FullCalendar CSS
-67. Dashboard 2
-68. Dashboard 3
-70. Document css
-71. Faq CSS
-72. Job CSS
-73. knowledgebase CSS
-74. internationalization CSS
-75. Learning CSS
-76. Order History css
-77. Print CSS
-78. Sidebar CSS
-79. social app
-80. avatars
-81. Bookmark
-82. cart
-83. wishlist
-84. checkout
-85. bookmark app
-86. contacts
-87. task
-88. Invoice
-89. Formwidgets
-90. Base_inputs
-91. Project list
-92. File Manager
-
- */
-
-
-/**=====================
-     01. General CSS Start
-==========================**/
+ 
 
 html {
     max-width: 100vw;
@@ -185,6 +79,7 @@ hr {
 .form-label {
     color: #59667a;
     font-weight: 500;
+    text-transform: capitalize;
 }
 
 code {
@@ -7552,6 +7447,7 @@ table tbody .border-bottom-warning td {
 
 .page-wrapper.compact-wrapper .page-body-wrapper header.main-nav .main-navbar .nav-menu>li span {
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .page-wrapper.compact-wrapper .page-body-wrapper header.main-nav .main-navbar .nav-menu>li a {
@@ -45466,11 +45362,3 @@ span.twitter-typeahead .tt-suggestion:active {
         padding-right: 0 !important;
     }
 }
-
-
-/**=====================
-    60. RTL CSS Ends
-==========================**/
-
-
-/*# sourceMappingURL=style.css.map */

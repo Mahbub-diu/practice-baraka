@@ -1,0 +1,45 @@
+
+/* css start by mahbub  */
+
+.admin-slider-main{
+    background:#fff;
+    padding: 20px 17px;
+}
+
+
+.common-legend {
+    margin-bottom: 30px;
+  }
+  .common-legend fieldset {
+    padding: 15px 19px 19px 19px !important;
+    border: 1px solid #e9ebec !important;
+    border-radius: 4px;
+  }
+  .common-legend legend {
+    text-align: left !important;
+    color: #1882c2;
+    margin: 0 auto;
+    width: auto;
+    float: none;
+    font-size: 15px;
+    padding: 2px 20px;
+    background: #e9ebec;
+    border-radius: 4px;
+    text-transform: capitalize;
+  }
+
+  .common-submit-btn{
+    text-transform: uppercase;
+  }
+  .text-right{
+    text-align: right;
+  }
+.common-legend .table tr th{
+    text-transform: uppercase;
+   
+}
+
+.about-main{
+    background:#fff;
+    padding: 20px 17px;
+}

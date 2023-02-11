@@ -32,6 +32,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/assets/css/date-picker.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/assets/css/bootstrap.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/assets/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('backend/assets/css/custom-style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/assets/css/responsive.css') }}">
 </head>
 
@@ -93,6 +94,18 @@
                                     <div>
                                         <h6>General </h6>
                                     </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="nav-link menu-title" href="javascript:void(0)">
+
+                                        <span>home page</span>
+                                        <div class="according-menu"><i class="fa fa-angle-right"></i></div>
+                                        <div class="according-menu"><i class="fa fa-angle-right"></i></div>
+                                    </a>
+                                    <ul class="nav-submenu menu-content" style="display: none;">
+                                        <li><a href="{{ url('/admin/homepage/slider')  }}" class="active">slider</a></li>
+                                        <li><a href="{{ url('/admin/homepage/about')  }}">about us</a></li>
+                                    </ul>
                                 </li>
                                 <li class="dropdown">
                                     <a class="nav-link menu-title" href="javascript:void(0)">

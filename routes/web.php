@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\aboutController;
+use App\Http\Controllers\sliderController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -57,7 +59,14 @@ Route::get('/carrer', function(){
 });
 
 // admin route 
+Route::prefix('/admin')->group(function () {
+    Route::get('/', function(){
+        return view('backend.admin');
+    });
 
-Route::get('/admin', function(){
-    return view('backend.admin');
+    Route::post('homepage/insertSliderData', [sliderController::class,'insertSliderData']);
+    Route::get('/homepage/slider', [sliderController::class,'readsliderdata']);
+
+   Route::post('homepage/insertaboutdata',[aboutController::class,'insertaboutdata']);
+   Route::get('/homepage/about',[aboutController::class,'readboutdata']);
 });
